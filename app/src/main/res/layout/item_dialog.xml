@@ -4,6 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+
+
+
     android:orientation="vertical">
 
     <TextView
@@ -27,9 +30,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/rounded_ripple"
+        android:layout_marginStart="@dimen/chat_dialog_preview_margin_start"
         android:paddingStart="12dp"
-        android:paddingTop="4dp"
         android:paddingEnd="12dp"
+        android:paddingTop="4dp"
+        android:layout_marginEnd="@dimen/chat_dialog_preview_margin_end"
         android:paddingBottom="4dp"
         android:stateListAnimator="@animator/clicked">
 

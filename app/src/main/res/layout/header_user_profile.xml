@@ -19,7 +19,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="@dimen/card_margin"
+        android:layout_marginTop="@dimen/card_margin_top"
+        android:layout_marginStart="@dimen/card_margin_profile"
+        android:layout_marginEnd="@dimen/card_margin_profile"
+        android:layout_marginBottom="@dimen/card_margin_bottom"
         android:background="@drawable/background_rectangle_stroke_filled"
         android:orientation="horizontal"
         android:padding="4dp">
@@ -117,7 +120,10 @@
         android:id="@+id/card_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/card_margin"
+        android:layout_marginTop="@dimen/card_margin_top"
+        android:layout_marginStart="@dimen/card_margin_profile"
+        android:layout_marginEnd="@dimen/card_margin_profile"
+        android:layout_marginBottom="@dimen/card_margin_bottom"
         android:foreground="?android:attr/selectableItemBackground"
         app:cardElevation="0dp"
         tools:ignore="UnusedAttribute">
@@ -299,10 +305,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginStart="@dimen/card_margin"
-        android:layout_marginTop="0dp"
-        android:layout_marginEnd="@dimen/card_margin"
-        android:layout_marginBottom="@dimen/card_margin"
+        android:layout_marginTop="@dimen/card_margin_top"
+        android:layout_marginStart="@dimen/card_margin_profile"
+        android:layout_marginEnd="@dimen/card_margin_profile"
+        android:layout_marginBottom="@dimen/card_margin_bottom"
         android:background="@drawable/background_rectangle_stroke_filled"
         android:scrollbars="none">
 

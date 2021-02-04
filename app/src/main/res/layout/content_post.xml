@@ -45,6 +45,8 @@
         android:id="@+id/item_post_attachments"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/feed_card_content_margin_start"
+        android:layout_marginEnd="@dimen/feed_card_content_margin_end"
         android:orientation="vertical">
 
         <include
