@@ -5,6 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="?attr/selectableItemBackground"
+    tools:background="@color/colorPrimary"
+    android:layout_marginStart="@dimen/item_people_margin_start"
+    android:layout_marginEnd="@dimen/item_people_margin_end"
     android:minHeight="64dp">
 
     <FrameLayout

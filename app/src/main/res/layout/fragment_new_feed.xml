@@ -42,6 +42,8 @@
             android:id="@+id/fragment_feeds_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:paddingStart="@dimen/feed_recycle_padding_start"
+            android:paddingEnd="@dimen/feed_recycle_padding_end"
             android:clipToPadding="false"
             android:scrollbars="vertical" />
 

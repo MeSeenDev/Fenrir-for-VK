@@ -196,7 +196,7 @@ public class VideoPlayerActivity extends AppCompatActivity implements SurfaceHol
         mPlayer.play();
 
         mControllerView.setMediaPlayer(this);
-        mControllerView.setAnchorView((ViewGroup) mDecorView);
+        mControllerView.setAnchorView((ViewGroup) findViewById(R.id.aspect_ratio_layout)); ///TODO привязка не к декору а к видеозиписи, возмодно стоит расмотреть выбор на основе типа устройства было mDecorView
         mControllerView.updateComment(!isLocal && video.isCanComment());
         mControllerView.updatePip(Build.VERSION.SDK_INT >= Build.VERSION_CODES.O && getPackageManager().hasSystemFeature(PackageManager.FEATURE_PICTURE_IN_PICTURE) && hasPipPermission());
     }
