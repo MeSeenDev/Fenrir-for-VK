@@ -16,6 +16,8 @@
 
         <RelativeLayout
             android:id="@+id/post_content"
+            android:layout_marginStart="@dimen/video_frame_margin_start"
+            android:layout_marginEnd="@dimen/video_frame_margin_end"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
