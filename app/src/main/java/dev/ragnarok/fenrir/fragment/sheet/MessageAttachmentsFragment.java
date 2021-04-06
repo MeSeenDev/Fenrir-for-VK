@@ -277,7 +277,7 @@ public class MessageAttachmentsFragment extends AbsPresenterBottomSheetFragment<
 
     @Override
     public void startAddVideoActivity(int accountId, int ownerId) {
-        Intent intent = VideoSelectActivity.createIntent(requireActivity(), accountId, ownerId);
+        Intent intent = VideoSelectActivity.Companion.createIntent(requireActivity(), accountId, ownerId);
         openRequestAudioVideoDoc.launch(intent);
     }
 
