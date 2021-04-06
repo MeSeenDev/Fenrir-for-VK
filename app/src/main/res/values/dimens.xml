@@ -117,4 +117,7 @@
     <dimen name="menu_bottom_margin_start">8dp</dimen>
     <dimen name="menu_bottom_margin_end">8dp</dimen>
 
+    <dimen name="item_video_album_card_start">8dp</dimen>
+    <dimen name="item_video_album_card_end">8dp</dimen>
+
 </resources>
